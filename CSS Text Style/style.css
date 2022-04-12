@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+p{
+    font-size: 100px;
+    color: brown;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+.isi{
+    font-size: 20px;
+    text-align: justify;
+}
