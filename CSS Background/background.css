@@ -1,0 +1,23 @@
+body{
+    background-image: url(nezuko.jpg);
+}
+h1{
+    text-align: center;
+    background: lightseagreen top center no-repeat;
+    color: azure;
+    width: 90%;
+    margin-left: 5%;
+}
+h3{
+    text-align: center;
+    background: blueviolet center no-repeat;
+    color: azure;
+    width: 80%;
+    margin-left: 10%;
+}
+h5{
+    text-align: center;
+    background: blanchedalmond bottom center no-repeat;
+    width: 70%;
+    margin-left: 15%;
+}
