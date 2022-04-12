@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #ddd;
+            text-align: center;
+            margin: 30px;
+            color: whitesmoke;
+        }
+        
+        img {
+            display: block;
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        .galeri {
+            width: 80%;
+            margin: 20px auto;
+            /* border: 10px solid white; */
+            list-style: none;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            grid-gap: 10px;
+            opacity: 85%;
+            border-radius: 20px;
+        }
+
+        .img1:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: all 0.5s ease;
+        }
+
+    </style>
+    <title>My Gallery</title>
+</head>
+<body>
+    <header class="gallery">
+        <h1>My Gallery</h1>
+    </header>
+    <ul class="galeri">
+       <li><img class="img1" src="img/1.jpg"></li>
+       <li><img src="img/2.jpg"></li>
+       <li><img src="img/3.jpg"></li>
+       <li><img src="img/4.jpg"></li>
+       <li><img src="img/5.jpg"></li>
+       <li><img src="img/6.jpg"></li>
+       <li><img src="img/7.jpg"></li>
+       <li><img src="img/8.jpg"></li>
+       <li><img src="img/9.jpg"></li>
+       <li><img src="img/10.jpg"></li>
+    </ul>
+</body>
+</html>
