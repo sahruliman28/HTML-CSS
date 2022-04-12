@@ -1,0 +1,38 @@
+table, th, td {
+    border : 1px solid white
+}
+
+th {
+    color: white; background-color: turquoise;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50%;
+}
+
+td {
+    background-color: slategray;
+    padding-left: 5px;
+}
+
+.sks {
+    text-align: center;
+}
+
+td {
+    color: white;
+}
+
+p {
+    text-align: right;
+    padding-right: 30%;
+}
+
+tr:hover {
+    background-color: yellow;
+}
