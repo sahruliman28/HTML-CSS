@@ -1,0 +1,27 @@
+body{
+    background-color: beige;
+    text-align: center;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    height: 20px;
+    width: auto;
+}
+.picture{
+    font-size: 20px;
+}
+.picture img{
+    width: 240px;
+    height: 240px;
+}
+.profile{
+    font-size: 20px;
+    font-style: assistant;
+}
+.prestasi{
+    font-weight: 700;
+}
+.footer{
+    font-weight: 200;
+}
